@@ -2,9 +2,9 @@ using EstudianteApp.Core.Models;
 
 namespace EstudianteApp.Core.Services
 {
-    public class StudentService : IStudentService
+    public class EstudianteServicio : IEstudianteServicio
     {
-        public bool esAprobado(Estudiante estudiante)
+        public bool Aprobado(Estudiante estudiante)
         {
             if (estudiante == null)
             {

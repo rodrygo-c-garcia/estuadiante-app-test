@@ -2,8 +2,8 @@ using EstudianteApp.Core.Models;
 
 namespace EstudianteApp.Core.Services
 {
-    public interface IStudentService
+    public interface IEstudianteServicio
     {
-        bool esAprobado(Estudiante estudiante);
+        bool Aprobado(Estudiante estudiante);
     }
 }
