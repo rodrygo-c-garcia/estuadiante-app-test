@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudianteApp.Core", "Estud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudianteApp.Tests", "EstudianteApp.Tests\EstudianteApp.Tests.csproj", "{DCFF2EAF-25A7-46A0-8E29-B7227CF11ECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudianteApp.API", "EstudianteApp.API\EstudianteApp.API.csproj", "{E258F559-DDA7-4515-9DA1-51C07065574F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{DCFF2EAF-25A7-46A0-8E29-B7227CF11ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCFF2EAF-25A7-46A0-8E29-B7227CF11ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCFF2EAF-25A7-46A0-8E29-B7227CF11ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E258F559-DDA7-4515-9DA1-51C07065574F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E258F559-DDA7-4515-9DA1-51C07065574F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E258F559-DDA7-4515-9DA1-51C07065574F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E258F559-DDA7-4515-9DA1-51C07065574F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
