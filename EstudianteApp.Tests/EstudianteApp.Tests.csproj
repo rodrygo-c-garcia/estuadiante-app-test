@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EstudianteApp.Core\EstudianteApp.Core.csproj" />
+    <ProjectReference Include="..\EstudianteApp.API\EstudianteApp.API.csproj" />
   </ItemGroup>
 
 </Project>
