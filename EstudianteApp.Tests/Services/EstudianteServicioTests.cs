@@ -30,16 +30,31 @@ namespace EstudianteApp.Tests.Services
         [Fact]
         public void Estudiante_DeberiaConservarElNombre()
         {
-            var estudiante = new Estudiante { CI = 789, Nombre = "Carlos", Nota = 80 };
+            // Arrange
+            var estudiante = new Estudiante { CI = 101, Nombre = "Lucía", Nota = 90 };
+            var servicio = new EstudianteServicio();
 
-            Assert.Equal("Carlos", estudiante.Nombre);
+            // Act
+            servicio.Aprobado(estudiante);
+
+            // Assert
+            Assert.Equal("Lucía", estudiante.Nombre);
         }
 
         [Fact]
         public void Estudiante_DeberiaConservarElCI()
         {
+            // Arrange
+            // ingresamos el CI de Lucía
             var estudiante = new Estudiante { CI = 101, Nombre = "Lucía", Nota = 90 };
+            var servicio = new EstudianteServicio();
 
+            // Act
+            // llamamos al método Aprobado
+            servicio.Aprobado(estudiante);
+
+            // Assert
+            // verificamos que el metodo aprobado no modifico el CI y sea el mismo
             Assert.Equal(101, estudiante.CI);
         }
     }
